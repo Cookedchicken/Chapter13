@@ -29,7 +29,7 @@ public class MediaLib
         totalCost = totalCost + song2.getPrice();
         totalRating = totalRating + song2.getRating();
 
-        MediaFile.writeString(song2.getTitle());
+        MediaFile.writeString(song2.getTitle()+"|"+song2.getRating());
 
 
 
@@ -38,15 +38,23 @@ public class MediaLib
         totalCost = totalCost + song3.getPrice();       
         totalRating = totalRating + song3.getRating();
 
+        MediaFile.writeString(song3.getTitle()+"|"+song3.getRating());
+
         Song song4 =  new Song("How Do I Live", 99, 7);
         numSongs = numSongs + 1;
         totalCost = totalCost + song4.getPrice();
         totalRating = totalRating + song4.getRating();
 
+        MediaFile.writeString(song4.getTitle()+"|"+song4.getRating());
+
+
+
         Song song5 =  new Song("Party Rock Anthem", 1.29, 6);
         numSongs = numSongs + 1;
         totalCost = totalCost + song5.getPrice();
         totalRating = totalRating + song5.getRating();
+
+        MediaFile.writeString(song5.getTitle()+"|"+song5.getRating());
 
         Song song6 =  new Song("I Gotta Feeling", .99, 7);
         numSongs = numSongs + 1;

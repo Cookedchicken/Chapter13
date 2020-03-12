@@ -19,7 +19,7 @@ public class ScrambledStrings
      *        a letter that was not "A" were swapped
      *   - letters were swapped at most once
      */
-    public static String scrambleWord(String word)
+    public static void scrambleWord(String word)
     {
 
         /* to be implemented */
@@ -33,8 +33,7 @@ public class ScrambledStrings
 
         String[] words = {"TAN", "ABRACADABRA", "WHOA",
                 "AARDVARK", "EGGS", "A", ""};
-        for (String word : words)
-            System.out.println(word + " becomes " + scrambleWord(word));
+//        for (String word : words)
+//            System.out.println(word + " becomes " + scrambleWord(word));
     }
 }
-© 2020 GitHub, Inc.
