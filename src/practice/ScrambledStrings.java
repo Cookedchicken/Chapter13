@@ -21,6 +21,10 @@ public class ScrambledStrings
      */
     public static void scrambleWord(String word)
     {
+        for(int i = 1; i<word.length();i++){
+
+        }
+        if
 
         /* to be implemented */
 
